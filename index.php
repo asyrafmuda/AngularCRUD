@@ -13,9 +13,9 @@
 	<form role="form">
 		<input type="hidden" ng-model="id">
 		<label>Full Name:</label>
-		<input type="text" ng-model="name" name="name" class="form-control" placeholder="Ex. John Cena"> <br />
+		<input type="text" ng-model="name" name="name" class="form-control" placeholder="Ex. Asyraf Muda"> <br />
 		<label>Email:</label>
-		<input type="text" ng-model="email" name="email" class="form-control" placeholder="Ex. yourmail@gmail.com">
+		<input type="text" ng-model="email" name="email" class="form-control" placeholder="Ex. asyraf@gmail.com">
 		<p style="color:{{message_color}};">{{message}}</p> <br />
 		<button type="button" ng-click="insertData()" class="btn btn-info">{{ buttonName }}</button>
 	</form>
